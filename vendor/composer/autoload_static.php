@@ -34,7 +34,10 @@ class ComposerStaticInit83d147afc9e073a5b1285d690c13e4db
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
-            'Guilhermeabroncari\\BuscadorCursos\\' => 34,
+        ),
+        'A' => 
+        array (
+            'Alura\\BuscadorDeCursos\\' => 23,
         ),
     );
 
@@ -80,7 +83,7 @@ class ComposerStaticInit83d147afc9e073a5b1285d690c13e4db
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Guilhermeabroncari\\BuscadorCursos\\' => 
+        'Alura\\BuscadorDeCursos\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
