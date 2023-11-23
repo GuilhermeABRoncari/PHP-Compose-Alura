@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Guilhermeabroncari\BuscadorCursos\Model;
 
@@ -7,7 +7,6 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador
 {
-
     private ClientInterface $httpClient;
     private Crawler $crawler;
 
@@ -26,7 +25,7 @@ class Buscador
         $elementoCursos = $this->crawler->filter('span.card-curso__nome');
 
         $cursos = [];
-        
+
         foreach ($elementoCursos as $elemento) {
             $cursos[] = $elemento->textContent;
         }
@@ -34,5 +33,3 @@ class Buscador
         return $cursos;
     }
 }
-
-?>
